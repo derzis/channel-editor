@@ -1,4 +1,5 @@
-import Image, StringIO, base64, gtk
+from PIL import Image
+import StringIO, base64, gtk
 
 def data2pixbuf(strdata, b64 = True):
 	if b64:

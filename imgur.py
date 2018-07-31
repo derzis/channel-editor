@@ -1,3 +1,4 @@
+#!/usr/bin/python2
 import pycurl, cStringIO, base64, json
 
 class Imgur:
